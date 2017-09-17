@@ -1,10 +1,14 @@
 #include <stdio.h>
 int main()
 {
-	char name[] = "Business Computer";
+	char name[30];
+	
+	printf("Enter your name : ");
+	scanf("%s",name);
+	
 	int i;
-    for(i=0;i<=50;i++){
-		printf("%s\n",name);
+    for(i=0;i<=10;i++){
+		printf("%.8s\n",name);
 	}	
 
 	return 0;	
