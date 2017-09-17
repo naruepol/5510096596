@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-	char name[30];
+	int age;
 	
-	printf("Enter your name : ");
-	scanf("%s",name);
+	printf("Enter your age : ");
+	scanf("%d",&age);
 	
 	int i;
     for(i=0;i<=10;i++){
-		printf("%.8s\n",name);
+		printf("%d\n",age);
 	}	
 
 	return 0;	
