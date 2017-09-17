@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main()
 {
-	char name[20] = "Kmitl";
-	
-	printf("%s\n",name);
-	printf("%s\n",name);
-	printf("%s\n",name);
-	printf("%s\n",name);
-	printf("%s\n",name);
+	char name[] = "Business Computer";
+	int i;
+    for(i=0;i<=50;i++){
+		printf("%s\n",name);
+	}	
+
 	return 0;	
 }
